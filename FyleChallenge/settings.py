@@ -83,9 +83,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'bxobyajsljrz1mbp9oab',
-        'USER': 'uiwe0mp4vxgmcrxd55kk',
-        'PASSWORD': 'ruoiepq1h4qED8DVgm2a',
-        'HOST': 'bxobyajsljrz1mbp9oab-postgresql.services.clever-cloud.com',
+        'USER': 'xxxxxxxxxxxxxxxxxxxxxx',
+        'PASSWORD': 'xxxxxxxxxxxxxxxxxxxx',
+        'HOST': 'xxxxxxxxxxxxxxxx',
         'PORT': '5432',
         'CONN_MAX_AGE': 500,
 
