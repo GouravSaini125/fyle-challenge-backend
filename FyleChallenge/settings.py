@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import django_heroku
-import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
@@ -88,6 +87,8 @@ DATABASES = {
         'PASSWORD': 'ruoiepq1h4qED8DVgm2a',
         'HOST': 'bxobyajsljrz1mbp9oab-postgresql.services.clever-cloud.com',
         'PORT': '5432',
+        'CONN_MAX_AGE': 500,
+
     }
 }
 
@@ -140,5 +141,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 django_heroku.settings(locals())
-prod_db = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(prod_db)

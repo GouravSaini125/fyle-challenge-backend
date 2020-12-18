@@ -3,4 +3,3 @@ django-cors-headers==3.6.0
 djangorestframework==3.12.2
 django_heroku
 gunicorn
-dj_database_url
